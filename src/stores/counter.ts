@@ -10,3 +10,10 @@ export const useCounterStore = defineStore("counter", () => {
 
   return { count, doubleCount, increment };
 });
+
+export const useCounter1Store = defineStore("counter1", {
+  state: () => {
+    return {count: 0}
+  },
+  
+})
